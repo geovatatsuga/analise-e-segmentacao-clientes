@@ -2,6 +2,8 @@
 
 ## 📊 Análise de Segmentação em Plataforma de Delivery
 
+Dashboard iterativa : https://analise-e-segmentacao-clientes.onrender.com/
+
 Este projeto foi desenvolvido com o objetivo de analisar e segmentar usuários de uma plataforma de delivery (baseada na Wolt) utilizando a metodologia RFM (Recência, Frequência e Monetariedade) e o algoritmo de agrupamento K-means.
 
 Trata-se de uma **pipeline completa de dados**, com foco em **comportamento de consumo**, **clusterização de perfis** e **criação de um dashboard interativo** com Dash e Plotly. O projeto organiza os clientes em grupos estratégicos para apoiar ações de retenção, fidelização e reativação.
