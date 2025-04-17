@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import dash
-from dash import dcc, html, Dash, Input, Output, dash_table
+from dash import dcc, html, Dash, Input, Output, State, dash_table, ctx
 from dash.dependencies import Input, Output
 import plotly.express as px
 import plotly.graph_objs as go
@@ -19,6 +19,7 @@ import numpy as np
 import plotly.io as pio
 import dash_bootstrap_components as dbc
 from plotly.subplots import make_subplots
+
 
 # Importando dados
 df = pd.read_csv('DADOS/dataset_for_analyst_assignment_20201120.csv')
