@@ -57,3 +57,6 @@ Neste projeto, buscamos responder essas perguntas com:
 ├── DADOS/                   # Base de dados da plataforma Wolt
 ├── RELATORIO E RASCUNHO/    # Documentos com análises, descrições e etapas do projeto
 ├── README.md                # Este arquivo        # Este arquivo
+├── Procfile.txt             # Necessário para o deploy no Render
+├── app.py                   # App responsável pelo deploy do dashboard 
+├── requirements.txt         # Lista de requisitos para deploy
