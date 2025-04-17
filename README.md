@@ -18,7 +18,7 @@ Você já se perguntou:
 - É possível antecipar o abandono com base no comportamento de compra?
 
 Neste projeto, buscamos responder essas perguntas com:
-- **Coleta e limpeza de dados** reais simulados da base da Wolt.
+- **Coleta e limpeza de dados** reais da base de dados da Wolt.
 - **Engenharia de atributos RFM**, associando recência, frequência e valor gasto.
 - **Clusterização com K-means**, agrupando os usuários por padrões de comportamento.
 - **Dashboard interativo**, visualizando segmentos e clusters com filtros dinâmicos.
