@@ -16,6 +16,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import plotly.io as pio
 import dash_bootstrap_components as dbc
 from plotly.subplots import make_subplots
 
