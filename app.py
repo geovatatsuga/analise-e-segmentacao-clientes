@@ -20,14 +20,8 @@ import dash_bootstrap_components as dbc
 from plotly.subplots import make_subplots
 
 # Importando dados
-df = pd.read_csv('https://raw.githubusercontent.com/geovatatsuga/analise-e-segmentacao-clientes/refs/heads/main/DADOS/dataset_for_analyst_assignment_20201120.csv')
-caminho = 'https://raw.githubusercontent.com/geovatatsuga/analise-e-segmentacao-clientes/main/DADOS/df_final_rfm.csv'
-
-df_final = pd.read_csv(caminho)
-
-caminho1 = 'https://rawgithub.com/geovatatsuga/analise-e-segmentacao-clientes/main/DADOS/df_final_rfm.csv'
-df_final = pd.read_csv(caminho1)
-
+df = pd.read_csv('DADOS/dataset_for_analyst_assignment_20201120.csv')
+df_final = pd.read_csv('DADOS/df_final_rfm.csv')
 
 total_usuarios = len(df)
 otimos_clientes = df_final['categoria_rfm'].value_counts().get('otimos_clientes', 0)
