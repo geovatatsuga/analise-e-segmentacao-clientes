@@ -555,3 +555,5 @@ def baixar_csv_cluster(n_clicks, cluster_selecionado, table_columns):
 # =================== RUN SERVER ===================
 if __name__ == '__main__':
     app.run(debug=True)
+
+server = app.server
