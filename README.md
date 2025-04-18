@@ -4,6 +4,8 @@
 
 Dashboard iterativa : https://analise-e-segmentacao-clientes.onrender.com/
 
+Leia no Medium : https://medium.com/@jeova.anderson/segmenta%C3%A7%C3%A3o-de-clientes-com-rfm-k-means-4e75c98f00d9
+
 Este projeto foi desenvolvido com o objetivo de analisar e segmentar usuários de uma plataforma de delivery (baseada na Wolt) utilizando a metodologia RFM (Recência, Frequência e Monetariedade) e o algoritmo de agrupamento K-means.
 
 Trata-se de uma **pipeline completa de dados**, com foco em **comportamento de consumo**, **clusterização de perfis** e **criação de um dashboard interativo** com Dash e Plotly. O projeto organiza os clientes em grupos estratégicos para apoiar ações de retenção, fidelização e reativação.
